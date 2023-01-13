@@ -1,0 +1,15 @@
+1.Generate an initial population of routes: To begin the genetic algorithm, we need to create an initial set of possible solutions to the problem, called the population. There are many ways to generate this initial population, such as randomly selecting a set of cities to include in each route or using a greedy algorithm to construct routes.
+
+2.Determine the fitness of each route: In order to determine which routes are the best (most fit), we need to evaluate the fitness of each route in the population. This is typically done by calculating the total distance of each route and using that as the measure of fitness. The shorter the distance, the higher the fitness.
+
+3.Select the fittest routes to be parents: To produce offspring for the next generation, we select the fittest routes from the current population to be the parents. There are various ways to do this, we using a roulette wheel selection method.
+
+4.Produce offspring through crossover: Once we have selected the parent routes, we can produce offspring by combining parts of the routes of the parents. This is called crossover or recombination. There are various crossover methods that can be used and we use two-point crossover.
+
+5.Perform mutation: After crossover, we can perform a mutation operation on the offspring by randomly swapping two cities in the route. This helps to introduce new genetic material into the population and can help to prevent the algorithm from getting stuck in a local optima.
+
+6.Create a new generation: The new generation consists of the offspring produced in the previous step, as well as any surviving routes from the previous generation
+
+7.Stopping Criteria: We repeat these steps until the condition we want is met. 
+
+8.Results and Discussion: We shows the results that we get and discuss it.
